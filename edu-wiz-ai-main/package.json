@@ -1,0 +1,13 @@
+{
+  "name": "edu-wiz-ai",
+  "version": "1.0.0",
+  "description": "AI Video Tutor Platform",
+  "scripts": {
+    "prebuild": "node inject-env.js",
+    "build": "echo 'Build complete'",
+    "dev": "node inject-env.js && python -m http.server 8080",
+    "start": "python -m http.server 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
